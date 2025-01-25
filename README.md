@@ -5,8 +5,11 @@
 This assignment will provide an introduction to Python functions!
 
 ### Learning Outcomes
-By the end of this assignment, you should be able to:
-- 
+By the end of this assignment, you should be able to read code with functions and determine the order that functions are called, as well as which functions are performing what programming logic, what their parameters are, how to create/use your own custom functions!
+
+Functions are a VERY useful programming construct which allows you to write code which can be called many times!  This is useful in that you can perform the same sequence of programming logic repeatedly without needing to write the code repeatedlyl.  In fact - if you find yourself writing the same code repeatedly you are probably in need of a function!  
+
+Further, you can write functions which include "parameters", which are variables that you can pass to them!  You may recognize these from code you saw in week 1!  I had created a couple of functions which were used to display user input out to the screen in a consistent format.  This week you will be the one creating and using functions!
 
 ### Instructions
 1. **Review the following materials**:
@@ -24,7 +27,7 @@ By the end of this assignment, you should be able to:
 
    - [SQL Alchemy](https://www.sqlalchemy.org/)
 
-        This library is useful for connecting to a variety of SQL databases!  
+        This library is useful for connecting to a variety of Structured Query Language (SQL) databases! Though you will not be required to write SQL in this class, these "relational" databases as they are known are very useful for storing a myriad of data in an efficently organized and easily queried way!  In fact you have already been interacting with a PostgreSQL database through the Discord server! 
 
 
 2. **Complete the following tasks**:

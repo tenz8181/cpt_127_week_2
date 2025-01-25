@@ -17,9 +17,9 @@ Further, you can write functions which include "parameters", which are variables
    - [W3Schools Python Functions]([https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/python_functions.asp))
         Please read this introduction regarding Python functions!
 
-    ### Reference
+   ### Reference
 
-        The following are libraries you will need to install to make the programs we will be running this week work!  Don't worry if you don't follow what they are doing (yet!) you will just need them for the assignments to run.  These are reference materials if you'd like to read more about them!
+   The following are libraries you will need to install to make the programs we will be running this week work!  Don't worry if you don't follow what they are doing (yet!) you will just need them for the assignments to run.  These are reference materials if you'd like to read more about them!
 
    - [Python DotEnv](https://pypi.org/project/python-dotenv/)
         
@@ -30,7 +30,7 @@ Further, you can write functions which include "parameters", which are variables
         This library is useful for connecting to a variety of Structured Query Language (SQL) databases! Though you will not be required to write SQL in this class, these "relational" databases as they are known are very useful for storing a myriad of data in an efficently organized and easily queried way!  In fact you have already been interacting with a PostgreSQL database through the Discord server! 
 
 
-2. **Complete the following tasks**:
+3. **Complete the following tasks**:
    - assignment_1.py:
      
        This assignment will provide an overview of functions as well as introduce you to the concept of installing libraries!

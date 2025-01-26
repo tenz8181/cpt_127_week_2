@@ -37,10 +37,11 @@ Further, you can write functions which include "parameters", which are variables
        
    - assignment_2.py:
      
-       Please find the errors.....
+       This assignment will continue to help build up your ability to review and fix other people's code!  Please make sure you fill out the .env file (I will post .env file variables on your class Discords) 
+       and fix the code errors.  Once the code has been fixed the program should run and you will see a success message!
    - assignment_3.py:
      
-       Here you will write your own code.....
+       Here be some practice with functions!  Please complete the functions as assigned in this file!
    
 4. **Please commit your code to a public GitHub repository**
     - Once you have completed all three tasks in your code please commit your updated python code to a public repository in GitHub!

@@ -31,7 +31,7 @@ Can you please complete this function definition so the code beneath it will run
 '''
 
 # Complete Assignment two by finishing the function definition here!
-
+def complete_assignment_two():
 
 
     try:
@@ -40,7 +40,7 @@ Can you please complete this function definition so the code beneath it will run
 
 
         # collect 
-        student_record = pd.read_sql("select cpt_username, cast(passkey as text) as passkey from cpt_program.week_two_keys",engine)
+        student_record = pd.read_sql("select cpt_username, cast(passkey as text) as passkey from cpt_program.week_two_keys where class_code = 'CPT127'",engine)
 
         if len(student_record) > 0:
             cpt_username = student_record.iloc[0]['cpt_username']
@@ -48,7 +48,7 @@ Can you please complete this function definition so the code beneath it will run
 
             body = {
                 'cpt_username': cpt_username,
-                'class_code': 'CPT-127',
+                'class_code': 'CPT127',
                 'passkey': passkey
             }
 
@@ -56,7 +56,7 @@ Can you please complete this function definition so the code beneath it will run
                 'Content-type':'application/json'
             }
 
-            res = requests.post('http://192.168.2.51:5000/week_two',json=body,headers=headers)
+            res = requests.post('http://192.168.2.51:3000/week_two',json=body,headers=headers)
 
             if res.status_code == 200:
                 return "Congratulations, you're all done!"

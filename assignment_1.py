@@ -16,8 +16,7 @@ sudo apt-get install python3-dotenv
 sudo apt-get install python3-sqlalchemy
 sudo apt-get install python3-pandas
 
-
-You will be prompted to install both (please enter 'Y') when prompted.  
+You will be prompted to install these (please enter 'Y') when prompted.  
 
 Once those have been installed and you have created/filled-out your .env file then this program should run!
 
@@ -38,6 +37,9 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 load_dotenv()
 
+# Pandas is  a really useful data manipulation library
+import pandas as pd
+
 
 '''
 
@@ -53,7 +55,7 @@ This creates an "engine" variable which is a live connection to the PostgreSQL d
 outlined in the .env file in this directory!  We will be reviewing "securing" these .env files at some point but 
 please note one of the most common ways to do this you have already seen - by not committing it to GitHub!
 
-This is why you were required to pull the .env file out of Brightspace!
+This is why you were required to pull the .env file out of Discord!
 '''
 engine = create_engine(f"postgresql://{os.getenv('db_user')}:{os.getenv('db_pass')}@{os.getenv('db_host')}:5432/{os.getenv('db_db')}")
 
@@ -63,6 +65,8 @@ If you see the following print statement in your terminal window after running t
 you have successfully connected to the database and are all set with assignment one!
 
 '''
+
+students = pd.read_sql('select * from cpt_program.week_two_keys',engine)
 
 
 print('Database connected successfully')

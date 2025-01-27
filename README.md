@@ -14,7 +14,7 @@ Further, you can write functions which include "parameters", which are variables
 ### Instructions
 1. **Review the following materials**:
 
-   - [W3Schools Python Functions]([https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/python_functions.asp))
+   - [W3Schools Python Functions](https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/python_functions.asp)
         Please read this introduction regarding Python functions!
 
    ### Reference
